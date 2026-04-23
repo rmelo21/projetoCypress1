@@ -5,7 +5,7 @@ name: 'Execução Agendada'
 # gatilho de exec agendado = workflow_dispatch
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '10 0 * * *'
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
   e2e-tests:
